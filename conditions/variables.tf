@@ -1,12 +1,10 @@
+variable "environment"{
+    default = "prod"
+}
 variable "ami_id" {
   type    = string
   default = "ami-09c813fb71547fc4f"
   description = "This is the AMI ID of devops-practise which is RHEL-9"
-}
-
-variable "instance_type"{
-    type = string
-    #default = "t3.micro"
 }
 
 variable "tags"{
@@ -21,7 +19,7 @@ variable "tags"{
 }
 
 variable "sg_name" {
-    default ="allow_sshh"
+    default ="allow_sshhh"
 }
 
 variable "sg_description"{
