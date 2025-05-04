@@ -10,3 +10,10 @@ variable "common_tags"{
         Terraform = "true"
     }
 }
+variable "zone_id"{
+    default = "Z02588893I1HKW9W2IVA8"
+}
+
+variable "domain_name" {
+    default = "KK143Johith.online"
+}
